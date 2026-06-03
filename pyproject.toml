@@ -1,6 +1,7 @@
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
+pythonpath = ["."]
 
 # Run backend unit tests only:
 #   pytest tests/unit/ -v
