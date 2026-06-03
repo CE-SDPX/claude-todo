@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+# Run backend unit tests only:
+#   pytest tests/unit/ -v
+#
+# Run UI e2e tests (live_server fixture starts the server automatically):
+#   playwright install chromium
+#   pytest tests/e2e/ -v
